@@ -1,0 +1,198 @@
+{
+  "ABOUT_POPUP_SECTION_ONE": "أحيانًا يكون من الصعب جدًا على الشخص المصاب إعادة البناء في الحياة وهو يستحق التشجيع والدعم. تشارك LE DÉFI SPORTIF بفاعلية في تحسين الصحة الجسدية والنفسية للمصابين. لكل تحديه!",
+  "ABOUT_POPUP_SECTION_TWO_HEADER": "يجرؤ على المغامرة!",
+  "ABOUT_POPUP_SECTION_TWO": "سوف يقوم جوينيل بجولة حول العالم بالدراجة والتجديف في عام 2021 وسيتم تنفيذ العديد من التحديات الرياضية في نفس الوقت حول العالم لدعم جرحى الحرب.  نحن ملتزمون جميعًا بمشاركة مغامراتنا لإلهامك. لذا تابعنا أو كن ممثلًا بنفسك من خلال المشاركة في التحدي من يجرؤ على التجديف! ودعونا ننشئ معًا سلسلة من التضامن العالمي. لن تكون سوى السعادة للجميع",
+  "ABOUT_POPUP_BUTTON": "الاستمرار",
+  "HEADER_HOME": "الصفحة\u00A0الرئيسيه",
+  "HEADER_DONATE": "التبرع",
+  "HEADER_INSTAGRAM": "انستغرام",
+  "HEADER_HEROS": "ابطال\u00A0اخرون",
+  "HEADER_ABOUT_US": "معلومات\u00A0عنا",
+  "HEADER_NEWS": "غرفة\u00A0الاخبار",
+  "FOOTER_MAIL": "اكتب لنا على البريد الالكتروني: ",
+  "FOOTER_RIGHTS": "جميع الحقوق محفوضه @2020",
+  "NEWS_TAB_MAP": "خريطه",
+  "NEWS_TAB_CALENDER": "الرزنامه",
+  "NEWS_TAB_LIVE": "مباشر",
+  "NEWS_BAR_NEWS_HEADER": "اخر الاخبار",
+  "NEWS_BAR_NEWS_NAME": "",
+  "NEWS_BAR_NEWS_DATE": "",
+  "NEWS_BAR_NEWS_CONTENT": "",
+  "NEW_BAR_SPONSORS_HEADER": "الرعاة",
+  "NEWS_BAR_SPONSORS_NAME": "",
+  "NEWS_BAR_SPONSORS_DATE": "",
+  "NEWS_BAR_SPONSOR_CONTENT": "",
+  "DONATE_PAGE_HEADER": "تبرع",
+  "DONATE_PAGE_TEXT": "تبرعاتك تجعلنا مستمرين.",
+  "DONATE_PAGE_DROPDOWN_CARD": "بطاقة الائتمان / بطاقة الخصم",
+  "DONATE_PAGE_DROPDOWN_PAYPAL": "PayPal",
+  "DONATE_PAGE_DROPDOWN_CREPTO": "عملة مشفرة",
+  "CARD_HEADER": "تبرع ببطاقة الائتمان / بطاقة الخصم",
+  "CARD_HEADER_EMAIL": " البريد الالكتروني",
+  "CARD_EMAIL_PLACEHOLDER": "أدخل بريدك الإلكتروني",
+  "CARD_AMOUNT_TEXT": "مبلغ التبرع",
+  "CARD_AMOUNT_TEXT_PLACEHOLDER": "مبلغ التبرع",
+  "CARD_PAYMENT_WAIT": "ارجوك انتظر...",
+  "CARD_PAYMENT_BUTTON": "التبرع",
+  "PAYPAL_HEADER": "تبرع مع PayPal",
+  "PAYPAL_TEXT": "مبلغ التبرع",
+  "PAYPAL_AMOUNT": "أدخل مبلغ تبرعك",
+  "PAYPAL_BUTTON": "الدفع بواسط PayPal",
+  "BITCOIN_PAYMENT_TYPES": [
+    "Bitcoin",
+    "Ethereum",
+    "Litecoin"
+  ],
+  "BITCOIN_TEXT": "تبرع مع Bitcoin",
+  "ETHEREUM_TEXT": "تبرع مع Ethereum",
+  "LITECOIN_TEXT": "تبرع مع Litecoin",
+  "DONATE_PAGE_TEXT_SECTION_ONE": [
+    "عندما نتحدث عن",
+    "«Gueules Cassées»",
+    "الجميع يفكر في جرحى الحرب العالمية الأولى. ومع ذلك ، تترك كل الحروب خلفها اصابات منها",
+    "« gueules cassées »",
+    "الجسدية والنفسية."
+  ],
+  "DONATE_PAGE_TEXT_DATE": "(يونيو 21 1921 - يونيو 21 2021)",
+  "DONATE_PAGE_TEXT_SECTION_TWO": "ستقوم جمعية RIEN QUE DU BONHEUR بإعادة استثمار التبرعات التي تم جمعها خلال عملية KEEP THE CAPE في عدة مشاريع لإعادة دمج جرحى الحرب وسيتم التبرع بنسبة 20٪ إلى GUEULES CASSEES.",
+  "DONATE_PAGE_SELECT_PAYMENT_OPTION": "حدد خيار الدفع",
+  "DONATE_PAGE_THANK_U_MSG_ONE": "أشكرك",
+  "DONATE_PAGE_THANK_U_MSG_TWO": "تبرعك - التحدي الذي نواجهه. شكرا لك من الفريق وجرحى الحرب",
+  "ABOUT_US_TAB_HEADER": "RIEN QUE DU BONHEUR",
+  "ABOUT_US_TAB_HEADER_NORMAL_CASE": "Rien Que du bonheur",
+  "ABOUT_US_TAB_SECTION_ONE": [
+    "غوينيل شغوف ، جريح حرب ، ورجل قلب. \n مسلحًا بقوة مفرطة وروح المغامرة ، عمل لعدة سنوات لإعادة بناء نفسه وإلهام الرجال والنساء الذين واجهوا المستحيل يومًا ما. \n يتحدى العناصر بينما يظل متواضعًا في مواجهة الشدائد.",
+    "“GARDER LE CAP”",
+    " هو مشروعه الجديد ، التحدي الجديد له. هذه المرة ، لا يرغب فقط في تكريس جهوده لجرحى الحرب ، بل يذهب إلى أبعد من ذلك ويدعو جميع الرياضيين من جميع أنحاء العالم للانضمام إليه من خلال الظهور بين",
+    "“أبطال آخرون”",
+    "لهذه المغامرة ، من خلال تكريس حدثهم أو تحديهم الرياضي لنفس القضية العظيمة. \n يجسد الآن شعار فوجه السابق ، RPIMa الأول: من يجرؤ على الفوز!"
+  ],
+  "ABOUT_US_TAB_SECTION_TWO_HEADER": [
+    "الجمعية",
+    "“ Rien que du bonheur ” هذا هو :"
+  ],
+  "ABOUT_US_TAB_SECTION_TWO_LI1": "دعم جرحى الحرب من خلال أداء التحديات الرياضية.",
+  "ABOUT_US_TAB_SECTION_TWO_LI2": "تعزيز القيم المتعلقة بالتفوق وإلهام جرحى حربنا في إعادة بنائهم.",
+  "ABOUT_US_TAB_SECTION_TWO_LI3": "تشجيع الابتكار.",
+  "ABOUT_US_TAB_SECTION_TWO_TEXT": "بعد وقوع حادث ، تستغرق إعادة الإعمار وقتًا طويلاً.\n يمكن أن يكون مسار عقبة حقيقي. \n الجميع قادر ، مهما كان مستواه ، على مواجهة التحديات. \n يمكن أن تأخذنا قوة الذراعين والعقل عبر المحيطات. \n ما هو جيد حقًا هو القتال بطريقة مقنعة ، واحتضان الحياة والعيش بشغف ، والخسارة مع الصف والفوز بجرأة ، لأن العالم ينتمي إلى الشخص الذي يجرؤ على الحياة ، والحياة مهمة للغاية. تافهة. \n",
+  "TEAM_TAB_HEADER": "الفريق",
+  "TEAM_TAB_PERSON_ONE": "جوينيل",
+  "TEAM_TAB_PERSON_ONE_HEADER": "ساس الفرنسيه السابقه",
+  "TEAM_TAB_PERSON_ONE_LI": [
+    "رئيس جمعية Rien que du Bonheur.",
+    "معبر رو أتلانتيك 2017/2018 لصالح جرحى الحرب.",
+    "عبور جبال البرانس وجبال الألب والعديد من الممرات الفائقة."
+  ],
+  "TEAM_TAB_PERSON_TWO": "كارولين",
+  "TEAM_TAB_PERSON_TWO_HEADER": "مدير اتصالات RQDB / GARDER LE CAP",
+  "TEAM_TAB_PERSON_TWO_DESCRIPTION": "مدير وكالة استشارية 1001 Vagues Paris / Basque Country",
+  "TEAM_TAB_PERSON_TWO_LI": [
+    "شغوف بالرياضات المتعددة.",
+    "رياضي هواة (إبحار ، تزلج ، رياضة شراعية ... في الهواء الطلق)",
+    "محب للهواء الطلق.",
+    "تحدى حدودك."
+  ],
+  "TEAM_TAB_PERSON_TWO_MAIL": "البريد الالكتروني :",
+  "TEAM_TAB_PERSON_THREE": "Lt-col (r) Fabien Tabarly",
+  "TEAM_TAB_PERSON_THREE_HEADER": "المستشار الفني / مركز العمليات",
+  "TEAM_TAB_PERSON_THREE_DESCRIPTION": "المستشار الفني / مركز العمليات المستشار الفني / الرئيس التنفيذي لمركز العمليات والمؤسس المشارك لشركة NIGMA Conseils s.a.s.",
+  "TEAM_TAB_PERSON_THREE_LI": [
+    "27 عاما من الخدمة كضابط في القوات المحمولة جوا.",
+    "3 سنوات من الخدمة في قيادة العمليات الخاصة",
+    "متخصص في المخابرات / العلاقات الدولية."
+  ],
+  "TEAM_TAB_PERSON_THREE_MAIL": "البريد الالكتروني :",
+  "TEAM_TAB_PERSON_FOUR": "Vincent",
+  "TEAM_TAB_PERSON_FOUR_HEADER": "جمعية مشرفي المواقع RQDB / الرئيس ل Luz informatique",
+  "TEAM_TAB_PERSON_FOUR_LI": [
+    "الدعم الرقمي.",
+    "إنشاء موقع Vitrine / التجارة الإلكترونية.",
+    "مراجع SEO.",
+    "إستراتيجية التسويق عبر الويب / الويب.",
+    "تدريب الحاسوب الرقمي."
+  ],
+  "TEAM_TAB_PERSON_FOUR_MAIL": "البريد الالكتروني :",
+  "TEAM_TAB_PERSON_FIVE": "Jean-Marc",
+  "TEAM_TAB_PERSON_FIVE_HEADER": "جمعية أمين الصندوق RQDB",
+  "TEAM_TAB_PERSON_FIVE_DESCRIPTION": "مدير شركة اكتشاف بلاد الباسك.",
+  "TEAM_TAB_PERSON_FIVE_LI": [
+    "مدرب CREPS.",
+    "دليل المشي لمسافات طويلة / ركوب الدراجات في الجبال - مدرب قوارب الكانوي والكاياك.",
+    "راسم غارة التجمع.",
+    "العالم 87: التزلج السريع - عبور جبال البرانس HRP."
+  ],
+  "TEAM_TAB_PERSON_FIVE_MAIL": "البريد الالكتروني: ",
+  "TEAM_TAB_PERSON_SIX": "Christelle",
+  "TEAM_TAB_PERSON_SIX_HEADER": "شريك حدث RQDB",
+  "TEAM_TAB_PERSON_SIX_LI": [
+    "صانع ومنظم الغارات الرياضية المتعددة.",
+    "منظمة Creator CAP WOMEN.",
+    "سائقة رباعية وسائقة SSV في راليتي غارة للسيدات في المغرب."
+  ],
+  "TEAM_TAB_PERSON_SIX_MAIL": "courrier :",
+  "TEAM_TAB_PERSON_SEVEN": "David",
+  "TEAM_TAB_PERSON_SEVEN_HEADER": "Secrétaire association RQDB",
+  "TEAM_TAB_PERSON_SEVEN_DESCRIPTION": "Huissier de justice à Bordeaux",
+  "TEAM_TAB_PERSON_SEVEN_LI": [
+    "Sapeur pompier volontaire pendant 14ans.",
+    "Sportif averti (Trails-Treks).",
+    "Amoureux de la nature et plus particulièrement du pays basque.",
+    "Toujours prêt à relever les défis."
+  ],
+  "TEAM_TAB_PERSON_SEVEN_MAIL": "البريد الالكتروني :",
+  "TECH_SUPPORT_TAB_HEADER": "دعم فني",
+  "TECH_SUPPORT_TAB_PERSON_ONE": "CODI",
+  "TECH_SUPPORT_TAB_PERSON_ONE_DESCRIPTION": "Codi ، ومقرها في بيروت ، هو مزيج من معسكر تدريبي حول التشفير ودورة القيادة للشباب المحرومين في لبنان. تتمثل مهمة Codi في استخدام البرمجة والأدوات الرقمية لتمكين الإدماج والتوظيف وكمحفز للابتكار الاجتماعي والتنوع. جميع فصول Codi مجانية للطلاب وتتضمن أيضًا ورش عمل حول المهارات الحياتية ودروس اللغة الإنجليزية اليومية.",
+  "TECH_SUPPORT_TAB_PERSON_ONE_MAIL": "البريد الالكتروني :",
+  "TECH_SUPPORT_TAB_PERSON_TWO": "Lory FEUVRIER",
+  "TECH_SUPPORT_TAB_PERSON_TWO_LI": [
+    "مستشار تنظيم الأصول المشفرة والبلوك تشين",
+    "M2 المصرفية والقانون المالي"
+  ],
+  "DEV_TAB_PERSON_ONE": "Shirak K Kevorkian",
+  "DEV_TAB_PERSON_ONE_HEADER": "مطور ويب فول ستاك مستقل",
+  "DEV_TAB_PERSON_ONE_DESCRIPTION": "المشاركه :",
+  "DEV_TAB_PERSON_ONE_LI": [
+    "مدير الإنتاج",
+    "تطوير الواجهة الأمامية",
+    "تصميم"
+  ],
+  "DEV_TAB_PERSON_ONE_MAIL": "البريد الالكتروني :",
+  "DEV_TAB_PERSON_TWO": "Gaby Karam",
+  "DEV_TAB_PERSON_TWO_HEADER": "مدرب واستشاري ومدير المنتج في Codi Tech",
+  "DEV_TAB_PERSON_TWO_DESCRIPTION": "المشاركه :",
+  "DEV_TAB_PERSON_TWO_LI": [
+    "المطور الرئيسي",
+    "تطوير الواجهه الخلفية",
+    "تطوير الواجهة الأمامية"
+  ],
+  "DEV_TAB_PERSON_TWO_MAIL": "البريد الالكتروني :",
+  "DEV_TAB_PERSON_THREE": "William AbouSharaf",
+  "DEV_TAB_PERSON_THREE_HEADER": "مطور ألعاب في Groovy Antoid",
+  "DEV_TAB_PERSON_THREE_DESCRIPTION": "المشاركه :",
+  "DEV_TAB_PERSON_THREE_LI": [
+    "تطوير الواجهة الأمامية",
+    "التصميم الجرافيكي"
+  ],
+  "DEV_TAB_PERSON_THREE_MAIL": "البريد الالكتروني :",
+  "SELECT_A_LANGUAGE": "اختر لغة",
+  "LOADING": "جار التحميل...",
+  "MAP_CALENDAR_COMING_SOON": [
+    "قريبا",
+    "في طور الإنشاء"
+  ],
+  "ABOUT_PAGE_SPONSORS_TAB": "الرعاة",
+  "ABOUT_PAGE_DEVELOPER_TAB": "مطوري الويب",
+  "DONATION_PAGE": {
+    "HEADER": "تم معالجة تبرعك ، يرجى ملء المعلومات أدناه",
+    "EMAIL": "البريد الالكتروني",
+    "EMAIL_PLACEHOLDER": "ادخل بريدك الالكتروني",
+    "NAME": "الاسم",
+    "NAME_PLACEHOLDER": "أدخل أسمك",
+    "A_WORD_FOR_US": "كلمة لنا",
+    "WAIT": "ارجوك انتظر...",
+    "CONTINUE": "الاستمرار"
+  },
+  "YOUTUBE_LIVE_WAIT": "ابحث عن Gwenael في هذه الصفحة عندما يبدأ البث المباشر - ترقبونا!"
+
+}

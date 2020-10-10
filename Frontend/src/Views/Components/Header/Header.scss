@@ -1,0 +1,176 @@
+.mydropdown.dropdown > button:not(:disabled):not(.disabled).active,
+.mydropdown.dropdown > button:not(:disabled):not(.disabled):active,
+.mydropdown.dropdown.show > .btn-primary.dropdown-toggle,
+.mydropdown.dropdown > button {
+  background-color: none;
+  border-color: #1a1a1a;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 123, 0, 0.5);
+}
+
+.btn-primary:hover {
+  color: #fd7c00;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 123, 0, 0.5);
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #fd7c00;
+}
+
+.dropdown-item.hover,
+.dropdown-item:hover {
+  background-color: #fd7c00;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: #fd7c00;
+}
+
+button:focus {
+  outline: 1px auto white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fd7c00;
+}
+.header .navbar-brand {
+  display: inline-block;
+  max-width: 25%;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link.make-me-active ,
+.navbar-light .navbar-nav .nav-link:hover,
+ .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header.container {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+@media only screen and (min-width: 480px) and (max-width: 991px) {
+  .header .navbar-brand {
+    max-width: 40%;
+  }
+}
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+  .header .navbar-brand {
+    max-width: 100%;
+  }
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+   .header nav .navbar-nav {
+     text-align: center !important;
+   }
+  .menu {
+    margin-left: 8%;
+   }
+}
+
+
+.LangDropDown {
+  position: absolute;
+  right: 100px;
+  bottom: calc(100% - 100px);
+
+}
+
+.menu {
+  margin-left: 20%;
+  text-align: right;
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 991px) {
+  .menu {
+    margin: 0;
+    text-align: right;
+  }
+  .LangDropDown {
+    position: absolute;
+    right: 60px;
+    bottom: calc(105% - 100px);
+  }
+}
+
+
+@media only screen and (min-width: 200px) and (max-width: 480px) {
+  .menu {
+    margin: 0;
+    text-align: right;
+  }
+  .LangDropDown {
+    right: 20px;
+    bottom: calc(100% - 40px);
+  }
+}
+
+
+body.rtl {
+
+  .menu {
+    margin-right: 20%;
+    margin-left: unset;
+    text-align: left;
+  }
+
+  .LangDropDown {
+    left: 100px;
+    right: unset;
+  }
+
+  .dropdown-toggle::after {
+    margin-right: 5px;
+    position: relative;
+    top: 5px;
+  }
+
+  .mydropdown .dropdown-menu {
+    text-align: right;
+  }
+
+  @media (max-width: 1200px) and (min-width: 992px) {
+    .menu {
+      margin-right: 8%;
+      margin-left: unset;
+    }
+    .navbar > div .menu div:nth-child(2) {
+      margin-right: 8%;
+      margin-left: unset;
+    }
+  }
+  @media only screen and (min-width: 480px) and (max-width: 991px) {
+    .menu {
+      margin: 0;
+      text-align: left;
+    }
+    .LangDropDown {
+      left: 60px;
+      right: unset;
+    }
+  }
+
+
+
+  @media only screen and (min-width: 200px) and (max-width: 480px) {
+    .menu {
+      margin: 0;
+      text-align: left;
+    }
+    .LangDropDown {
+      left: 20px;
+      right: unset;
+    }
+  }
+
+
+}

@@ -1,0 +1,42 @@
+.Hero {
+    .card {
+        border: 2px solid #fd7c00;
+        margin-bottom: 30px;
+    }
+    .card-body a {
+        color:  #fd7c00; 
+    }
+    .card-body a:hover {
+        text-decoration: underline;
+    }
+    .zoom {
+        overflow: hidden;
+        transition: all .3s linear;
+    }
+
+    .card-img-top:hover {
+        transform: scale(1.2);
+        transition: all .3s linear;
+    }
+
+    .card-link .textorange {
+        color: #fd7c00;
+    }
+    .card-link:hover .textorange {
+text-decoration: underline;
+    }
+
+    .Container {
+        padding-right: 0px; 
+        padding-left: 0px; 
+    }
+
+   
+    // .cardgrid {
+    // display: grid;
+    // grid-template-columns: 1fr 1fr 1fr 1fr;
+    // grid-template-rows: auto;
+    // grid-column-gap: 15px;
+    // grid-row-gap: 15px;
+    // }
+}    

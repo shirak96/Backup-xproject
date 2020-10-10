@@ -1,0 +1,198 @@
+{
+  "ABOUT_POPUP_SECTION_ONE": "Il est parfois très difficile pour un blessé de se reconstruire dans la vie et il mérite d’être encouragé, soutenu. LE DÉFI SPORTIF participe activement au bien être physique et psychologique du blessé. A chacun son défi !",
+  "ABOUT_POPUP_SECTION_TWO_HEADER": "Osez l’aventure !",
+  "ABOUT_POPUP_SECTION_TWO": "Gwénaël réalisera un tour du monde en vélo et à la rame en 2021 et une multitude de défis sportifs seront parallèlement réalisés dans le monde entier pour soutenir les blessés de guerre.\n Nous avons tous à cœur de partager nos aventures pour vous inspirer. Alors suivez nous ou bien devenez vous même acteur en participant au défi « Qui ose rame ! » et créons ensemble une chaine de solidarité mondiale. Ce sera Rien que du bonheur pour tous !",
+  "ABOUT_POPUP_BUTTON": "CONTINUER",
+  "HEADER_HOME": "HOME",
+  "HEADER_DONATE": "FAIRE\u00A0UN\u00A0DON",
+  "HEADER_INSTAGRAM": "INSTAGRAM",
+  "HEADER_HEROS": "LES\u00A0AUTRES\u00A0HEROS",
+  "HEADER_ABOUT_US": "À\u00A0PROPOS\u00A0DE\u00A0NOUS",
+  "HEADER_NEWS": "NEWSROOM",
+  "FOOTER_MAIL": "nous ecrire : ",
+  "FOOTER_RIGHTS": "tous droits réservés @2020",
+  "NEWS_TAB_MAP": "MAP",
+  "NEWS_TAB_CALENDER": "Calendrier",
+  "NEWS_TAB_LIVE": "LIVE",
+  "NEWS_BAR_NEWS_HEADER": "Dernieres Nouvelles",
+  "NEWS_BAR_NEWS_NAME": "",
+  "NEWS_BAR_NEWS_DATE": "",
+  "NEWS_BAR_NEWS_CONTENT": "",
+  "NEW_BAR_SPONSORS_HEADER": "Sponsors et Mécènes",
+  "NEWS_BAR_SPONSORS_NAME": "",
+  "NEWS_BAR_SPONSORS_DATE": "",
+  "NEWS_BAR_SPONSOR_CONTENT": "",
+  "DONATE_PAGE_HEADER": "Faites un don",
+  "DONATE_PAGE_TEXT": "Vos dons nous permettent de continuer.",
+  "DONATE_PAGE_DROPDOWN_CARD": "Carte de crédit / Carte de débit",
+  "DONATE_PAGE_DROPDOWN_PAYPAL": "Paypal",
+  "DONATE_PAGE_DROPDOWN_CREPTO": "Cryptocurrency",
+  "CARD_HEADER": "Faire un don par Credit Card / Debt Card",
+  "CARD_HEADER_EMAIL": "Email",
+  "CARD_EMAIL_PLACEHOLDER": "Entrer votre Email",
+  "CARD_AMOUNT_TEXT": "Montant du don",
+  "CARD_AMOUNT_TEXT_PLACEHOLDER": "Montant du don",
+  "CARD_PAYMENT_WAIT": "S'il vous plaît, attendez...",
+  "CARD_PAYMENT_BUTTON": "Faire un don",
+  "PAYPAL_HEADER": "Faire un don avec PayPal",
+  "PAYPAL_TEXT": "Montant du don",
+  "PAYPAL_AMOUNT": "Entrez le montant de votre don",
+  "PAYPAL_BUTTON": "Payer avec PayPal",
+  "BITCOIN_PAYMENT_TYPES": [
+    "Bitcoin",
+    "Ethereum",
+    "Litecoin"
+  ],
+  "BITCOIN_TEXT": "Faire un don avec Bitcoin",
+  "ETHEREUM_TEXT": "Faire un don avec Ethereum",
+  "LITECOIN_TEXT": "Faire un don avec Litecoin",
+  "DONATE_PAGE_TEXT_SECTION_ONE": [
+    "Lorsque l’on parle des",
+    "«Gueules Cassées»",
+    "tout un chacun pense aux blessés de la face de la Première Guerre mondiale. Pourtant toutes les guerres laissent derrière elles de nouvelles",
+    "« gueules cassées »",
+    "physiques et psychologiques."
+  ],
+  "DONATE_PAGE_TEXT_DATE": "(21 juin 1921 – 21 juin 2021)",
+  "DONATE_PAGE_TEXT_SECTION_TWO": "L’association RIEN QUE DU BONHEUR réinvestira les dons collectés lors de l’opération GARDER LE CAP dans plusieurs projets de réinsertion des blessés de guerre et 20% seront reversés aux GUEULES CASSEES.",
+  "DONATE_PAGE_SELECT_PAYMENT_OPTION": "Sélectionnez l'option de paiement",
+  "DONATE_PAGE_THANK_U_MSG_ONE": "Je vous remerci",
+  "DONATE_PAGE_THANK_U_MSG_TWO": "Votre don - notre défis. Merci de la part de l'équipe et des blessés de guerre",
+  "ABOUT_US_TAB_HEADER": "RIEN QUE DU BONHEUR",
+  "ABOUT_US_TAB_HEADER_NORMAL_CASE": "Rien Que du bonheur",
+  "ABOUT_US_TAB_SECTION_ONE": [
+    "Gwenael est un passionné, un blessé de guerre, et un homme de coeur. \n Armé d’une force démesurée et d’une âme d’aventurier, il oeuvre depuis plusieurs années à la fois pour se reconstruire et pour inspirer les hommes et femmes qui, un jour, on été confronté à l’impossible. \n Il défie les éléments tout en restant humble face a l'adversité.",
+    "“GARDER LE CAP”",
+    " est son nouveau projet, son nouveau défi. Cette fois ci, il souhaite non seulement dédier son effort aux blessés de guerre, mais va plus loin et invite tous les sportifs du monde entier à le rejoindre en figurant parmi les ",
+    "“autres héros”",
+    "de cette aventure, en dédiant leur épreuve ou leur challenge sportif à cette même grande cause. \n Il incarne désormais la devise de son ancien régiment, le 1er RPIMa: QUI OSE GAGNE !"
+  ],
+  "ABOUT_US_TAB_SECTION_TWO_HEADER": [
+    "L’ Association ",
+    "“ Rien que du bonheur ” C’est :"
+  ],
+  "ABOUT_US_TAB_SECTION_TWO_LI1": "Soutenir les blessés de guerre en réalisant des défis sportifs.",
+  "ABOUT_US_TAB_SECTION_TWO_LI2": "Promouvoir les valeurs liées au dépassement de soi et inspirer nos blessés de guerre dans leur reconstruction.",
+  "ABOUT_US_TAB_SECTION_TWO_LI3": "Promouvoir l’innovation.",
+  "ABOUT_US_TAB_SECTION_TWO_TEXT": "Après un accident, la reconstruction est longue. \n Elle peut être, un vrai parcours du combattant. \n Chacun est capable, quelque soit son niveau, de relever des défis. \n La force des bras et le mental peuvent nous emmener à traverser des océans.\n Ce qui est vraiment bon, c'est de se battre avec persuasion, embrasser la vie et vivre avec passion, perdre avec classe et vaincre en osant, parce que le monde appartient à celui qui ose et que LA VIE EST BEAUCOUP TROP IMPORTANTE pour être insignifiante.",
+  "TEAM_TAB_HEADER": "L'éQUIPE",
+  "TEAM_TAB_PERSON_ONE": "GWENAËL",
+  "TEAM_TAB_PERSON_ONE_HEADER": "ANCIEN SAS FRANÇAIS",
+  "TEAM_TAB_PERSON_ONE_LI": [
+    "Président association Rien que du Bonheur.",
+    "Traversée de l’Atlantique à la rame 2017/2018 au profit des blessés de guerre.",
+    "Traversée des Pyrénées, des Alpes et de nom-breux ultra Trails."
+  ],
+  "TEAM_TAB_PERSON_TWO": "Caroline",
+  "TEAM_TAB_PERSON_TWO_HEADER": "Responsable communications RQDB / GARDER LE CAP",
+  "TEAM_TAB_PERSON_TWO_DESCRIPTION": "Directrice agence conseil 1001Vagues Paris/Pays Basque",
+  "TEAM_TAB_PERSON_TWO_LI": [
+    "Passionnée de multi-sports.",
+    "Sportif amatrice (Voile, ski, kitesurf... Outdoor)",
+    "Amoureuse des grands espaces.",
+    "Défie tes limites."
+  ],
+  "TEAM_TAB_PERSON_TWO_MAIL": "courrier :",
+  "TEAM_TAB_PERSON_THREE": "Lt-col (r) Fabien Tabarly",
+  "TEAM_TAB_PERSON_THREE_HEADER": "Technical advisor / operations center",
+  "TEAM_TAB_PERSON_THREE_DESCRIPTION": "Conseillé technique / centre operations PDG et co-fondateur de NIGMA conseils s.a.s.",
+  "TEAM_TAB_PERSON_THREE_LI": [
+    "27 ans de service en tant qu’officier dans les troupes aéroportées.",
+    "3 ans de services au sein du Commandement des Operations Spéciales",
+    "spécialiste renseignement / relations internationales."
+  ],
+  "TEAM_TAB_PERSON_THREE_MAIL": "courrier :",
+  "TEAM_TAB_PERSON_FOUR": "Vincent",
+  "TEAM_TAB_PERSON_FOUR_HEADER": "WebMaster association RQDB / Président Luz informatique",
+  "TEAM_TAB_PERSON_FOUR_LI": [
+    "Accompagnement numérique.",
+    "Création de site internet Vitrine/E-commerce.",
+    "Référencement SEO.",
+    "Stratégie WEB / WEB MARKETING.",
+    "Formation informatique digital numérique."
+  ],
+  "TEAM_TAB_PERSON_FOUR_MAIL": "courrier :",
+  "TEAM_TAB_PERSON_FIVE": "Jean-Marc",
+  "TEAM_TAB_PERSON_FIVE_HEADER": "Trésorier association RQDB",
+  "TEAM_TAB_PERSON_FIVE_DESCRIPTION": "Chef d’entreprise Pays Basque découverte.",
+  "TEAM_TAB_PERSON_FIVE_LI": [
+    "Formateur CREPS.",
+    "Guide rando pédestre/ VTT - Moniteur Canoë- Kayak.",
+    "Traceur rallye raid.",
+    "Mondial 87: Ski de vitesse - Traversée Pyrénées HRP."
+  ],
+  "TEAM_TAB_PERSON_FIVE_MAIL": "courrier: ",
+  "TEAM_TAB_PERSON_SIX": "Christelle",
+  "TEAM_TAB_PERSON_SIX_HEADER": "Partenaire Événementiel RQDB",
+  "TEAM_TAB_PERSON_SIX_LI": [
+    "Créatrice et organisatrice de raid multi sports.",
+    "Créatrice CAP WOMEN Organisation.",
+    "Pilote quad et SSV sur 2 rallyes raid féminin Maroc."
+  ],
+  "TEAM_TAB_PERSON_SIX_MAIL": "courrier :",
+  "TEAM_TAB_PERSON_SEVEN": "David",
+  "TEAM_TAB_PERSON_SEVEN_HEADER": "Secrétaire association RQDB",
+  "TEAM_TAB_PERSON_SEVEN_DESCRIPTION": "Huissier de justice à Bordeaux",
+  "TEAM_TAB_PERSON_SEVEN_LI": [
+    "Sapeur pompier volontaire pendant 14ans.",
+    "Sportif averti (Trails-Treks).",
+    "Amoureux de la nature et plus particulièrement du pays basque.",
+    "Toujours prêt à relever les défis."
+  ],
+  "TEAM_TAB_PERSON_SEVEN_MAIL": "courrier :",
+  "TECH_SUPPORT_TAB_HEADER": "SOUTIEN TECHNIQUE",
+  "TECH_SUPPORT_TAB_PERSON_ONE": "CODI",
+  "TECH_SUPPORT_TAB_PERSON_ONE_DESCRIPTION": "Codi, basé à Beyrouth, est une combinaison entre un bootcamp de codage et un cours de leadership pour les jeunes défavorisés au Liban. La mission de Codi est d'utiliser la programmation et les outils numériques pour permettre l'inclusion et l'emploi et comme catalyseur de l'innovation sociale et de la diversité. Les cours de Codi sont tous gratuits pour les étudiants et comprennent également des ateliers sur les compétences de vie et des cours d'anglais quotidiens.",
+  "TECH_SUPPORT_TAB_PERSON_ONE_MAIL": "courrier :",
+  "TECH_SUPPORT_TAB_PERSON_TWO": "Lory FEUVRIER",
+  "TECH_SUPPORT_TAB_PERSON_TWO_LI": [
+    "Consultante en réglementation blockchain & cryptoactifs",
+    "M2 droit bancaire et financier"
+  ],
+  "DEV_TAB_PERSON_ONE": "Shirak K Kevorkian",
+  "DEV_TAB_PERSON_ONE_HEADER": "Développeur Web Free Lance Full Stack",
+  "DEV_TAB_PERSON_ONE_DESCRIPTION": "participation :",
+  "DEV_TAB_PERSON_ONE_LI": [
+    "chef de produit",
+    "développement frontend",
+    "mise en page"
+  ],
+  "DEV_TAB_PERSON_ONE_MAIL": "courrier :",
+  "DEV_TAB_PERSON_TWO": "Gaby Karam",
+  "DEV_TAB_PERSON_TWO_HEADER": "Formateur, consultant et chef de produit chez Codi Tech",
+  "DEV_TAB_PERSON_TWO_DESCRIPTION": "participation :",
+  "DEV_TAB_PERSON_TWO_LI": [
+    "Responsable technique",
+    "développement backend",
+    "développement frontend"
+  ],
+  "DEV_TAB_PERSON_TWO_MAIL": "courrier :",
+  "DEV_TAB_PERSON_THREE": "William AbouSharaf",
+  "DEV_TAB_PERSON_THREE_HEADER": "Développeur de jeux chez Groovy Antoid",
+  "DEV_TAB_PERSON_THREE_DESCRIPTION": "participation :",
+  "DEV_TAB_PERSON_THREE_LI": [
+    "développement frontend",
+    "conception graphique"
+  ],
+  "DEV_TAB_PERSON_THREE_MAIL": "courrier :",
+  "SELECT_A_LANGUAGE": "SÉLECTIONNEZ UNE LANGUE",
+  "LOADING": "Loading...",
+  "MAP_CALENDAR_COMING_SOON": [
+    "BIENTÔT DISPONIBLE",
+    "EN CONSTRUCTION"
+  ],
+  "ABOUT_PAGE_SPONSORS_TAB": "SPONSORS",
+  "ABOUT_PAGE_DEVELOPER_TAB": "DéVELOPPEURS WEB",
+  "DONATION_PAGE": {
+    "HEADER": "Votre don a été traité, merci de renseigner les informations ci-dessous",
+    "EMAIL": "Email",
+    "EMAIL_PLACEHOLDER": "Entrer votre Email",
+    "NAME": "Name",
+    "NAME_PLACEHOLDER": "Entrez votre nom",
+    "A_WORD_FOR_US": "Un mot pour nous",
+    "WAIT": "S'il vous plaît, attendez...",
+    "CONTINUE": "Continuer"
+  },
+  "YOUTUBE_LIVE_WAIT": "Retrouvez Gwenael sur cette page quand il sera en direct - stay tuned !"
+
+}

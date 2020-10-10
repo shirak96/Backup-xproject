@@ -1,0 +1,212 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://core/InputSideBar/CreateHeroSideBar.gd" type="Script" id=2]
+[ext_resource path="res://gameobjects/Buttons/CloseButton.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Assets/circle-texture.png" type="Texture" id=4]
+[ext_resource path="res://Assets/Plus-Icon-orange.png" type="Texture" id=5]
+[ext_resource path="res://gameobjects/InputSideBar/InputLabel.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Assets/SliderBackGround.png" type="Texture" id=7]
+[ext_resource path="res://gameobjects/Buttons/Button.tscn" type="PackedScene" id=8]
+[ext_resource path="res://Futura Std Medium.otf" type="DynamicFontData" id=9]
+
+[sub_resource type="DynamicFont" id=1]
+size = 70
+font_data = ExtResource( 9 )
+
+[sub_resource type="CanvasItemMaterial" id=2]
+light_mode = 2
+
+[sub_resource type="DynamicFont" id=3]
+size = 70
+font_data = ExtResource( 9 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 70
+font_data = ExtResource( 9 )
+
+[node name="CreateHeroSideBar" type="Control"]
+anchor_right = 0.984
+anchor_bottom = 0.97
+margin_right = 0.039978
+margin_bottom = 0.149994
+mouse_filter = 1
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BackGround" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 7 )
+expand = true
+
+[node name="HeroTitle" type="Label" parent="."]
+anchor_left = 0.497
+anchor_right = 0.497
+margin_left = -60.555
+margin_top = 35.0
+margin_right = 62.445
+margin_bottom = 68.0
+rect_scale = Vector2( 0.400742, 0.400742 )
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0.937255, 0.509804, 0.0392157, 1 )
+text = "New Hero"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HTTPRequest" type="HTTPRequest" parent="."]
+
+[node name="CloseButton" parent="." instance=ExtResource( 3 )]
+margin_left = 22.4918
+margin_top = 21.2531
+margin_right = 2945.62
+margin_bottom = 2944.92
+
+[node name="HeroImage" type="Control" parent="."]
+anchor_left = 0.501
+anchor_right = 0.501
+margin_left = -53.9974
+margin_top = 74.6342
+margin_right = 53.0026
+margin_bottom = 184.634
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="HeroImage"]
+material = SubResource( 2 )
+anchor_left = 0.5
+anchor_top = -0.045
+anchor_right = 0.5
+anchor_bottom = -0.045
+margin_left = -56.5
+margin_top = -0.0500088
+margin_right = 56.5
+margin_bottom = 109.95
+texture = ExtResource( 4 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Light2D" type="Light2D" parent="HeroImage"]
+position = Vector2( 51, 51 )
+scale = Vector2( 0.429625, 0.43265 )
+texture = ExtResource( 4 )
+mode = 2
+
+[node name="InputContainer" type="Control" parent="."]
+anchor_left = 0.512
+anchor_right = 0.512
+margin_left = -151.246
+margin_top = 220.68
+margin_right = 149.754
+margin_bottom = 438.68
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Input" parent="InputContainer" instance=ExtResource( 6 )]
+margin_left = 11.6354
+margin_top = -3.90152
+margin_right = 283.635
+margin_bottom = 52.0985
+displayTitle = "Hero Name"
+inputPlaceHolder = " Add hero name"
+
+[node name="Website" parent="InputContainer" instance=ExtResource( 6 )]
+margin_left = 11.6354
+margin_top = 54.7433
+margin_right = 283.635
+margin_bottom = 110.743
+displayTitle = "Hero Website"
+inputPlaceHolder = " Add hero website"
+
+[node name="Input3" parent="InputContainer" instance=ExtResource( 6 )]
+margin_left = 10.8209
+margin_top = 110.945
+margin_right = 282.821
+margin_bottom = 166.945
+displayTitle = "Hero Description"
+inputPlaceHolder = "   Add hero description"
+displayDescription = true
+
+[node name="AddHeroButton" type="TextureButton" parent="."]
+anchor_left = 0.488
+anchor_right = 0.488
+margin_left = -71.1154
+margin_top = 53.168
+margin_right = 76.8846
+margin_bottom = 223.168
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="AddHeroButton"]
+margin_left = 23.5856
+margin_top = 128.729
+margin_right = 145.586
+margin_bottom = 159.729
+rect_scale = Vector2( 0.295891, 0.295891 )
+custom_fonts/font = SubResource( 3 )
+custom_colors/font_color = Color( 0.937255, 0.509804, 0.0392157, 1 )
+text = "Add Image"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="AddHeroButton"]
+margin_left = 48.719
+margin_top = 47.4351
+margin_right = 96.719
+margin_bottom = 96.4351
+texture = ExtResource( 5 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="EditImage" type="Label" parent="."]
+visible = false
+margin_left = 106.19
+margin_top = 181.897
+margin_right = 228.191
+margin_bottom = 212.897
+rect_scale = Vector2( 0.854576, 0.854576 )
+custom_fonts/font = SubResource( 3 )
+custom_colors/font_color = Color( 0.937255, 0.509804, 0.0392157, 1 )
+text = "EditImage"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CreateHero-Button" parent="." instance=ExtResource( 8 )]
+anchor_left = 0.485
+anchor_top = 1.0
+anchor_right = 0.485
+anchor_bottom = 1.0
+margin_left = -66.5492
+margin_top = -46.0026
+margin_right = 123.451
+margin_bottom = -6.00256
+rect_scale = Vector2( 0.7, 0.7 )
+
+[node name="Label" type="Label" parent="CreateHero-Button"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -73.6168
+margin_top = 4.94647
+margin_right = 285.383
+margin_bottom = 75.9465
+rect_scale = Vector2( 0.410521, 0.410521 )
+custom_fonts/font = SubResource( 4 )
+text = "Create Hero"
+align = 1
+[connection signal="request_completed" from="HTTPRequest" to="." method="_on_HTTPRequest_request_completed"]
+[connection signal="pressed" from="CloseButton" to="." method="_on_CloseButton_button_down"]
+[connection signal="pressed" from="AddHeroButton" to="." method="_on_AddHeroImageNode_pressed"]
+[connection signal="pressed" from="CreateHero-Button" to="." method="_on_CreateHeroButton_button_down"]

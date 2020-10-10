@@ -1,0 +1,35 @@
+.rhap_container {
+    border-radius: 15px;
+    padding: 1px 10px 1px 5px;
+    background-color: unset;
+    box-shadow: none;
+    width: 100px;
+    min-width: 100px;
+    text-align: left;
+    line-height: 0;
+    position: fixed;
+    left: 2%;
+    top: 1vh;
+    z-index: 1;
+    background: rgba(26, 26, 26, 0.5);
+    .rhap_controls-section {
+        margin: 0;
+    }
+
+    svg, svg path {
+        fill: #ef820a;
+    }
+    .rhap_volume-bar {
+        background: white;
+        .rhap_volume-indicator {
+            background: #ef820a;
+
+        }
+    }
+}
+body.rtl .rhap_container {
+    direction: ltr;
+    padding: 1px 5px 1px 10px;
+    text-align: left;
+    right: 2%;
+}

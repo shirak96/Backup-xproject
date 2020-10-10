@@ -1,0 +1,124 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Control",
+"class": "AdminSideBar",
+"language": "GDScript",
+"path": "res://core/AdminSideBar/Admin-SideBar.gd"
+}, {
+"base": "Control",
+"class": "EventCardUI",
+"language": "GDScript",
+"path": "res://core/AdminSideBar/EventCard.gd"
+}, {
+"base": "Node2D",
+"class": "EventPin",
+"language": "GDScript",
+"path": "res://core/PinPoint/Pin.gd"
+}, {
+"base": "Control",
+"class": "HeroCardUI",
+"language": "GDScript",
+"path": "res://core/AdminSideBar/HeroCard.gd"
+}, {
+"base": "Node2D",
+"class": "HeroPin",
+"language": "GDScript",
+"path": "res://core/HeroPoint/HeroPoint.gd"
+}, {
+"base": "InputEventAction",
+"class": "InputEventMultiScreenDrag",
+"language": "GDScript",
+"path": "res://Godot-Touch-Input-Manager-master/CustomInputEvents/InputEventMultiScreenDrag.gd"
+}, {
+"base": "InputEventAction",
+"class": "InputEventScreenPinch",
+"language": "GDScript",
+"path": "res://Godot-Touch-Input-Manager-master/CustomInputEvents/InputEventScreenPinch.gd"
+}, {
+"base": "InputEventAction",
+"class": "InputEventScreenTwist",
+"language": "GDScript",
+"path": "res://Godot-Touch-Input-Manager-master/CustomInputEvents/InputEventScreenTwist.gd"
+}, {
+"base": "InputEventAction",
+"class": "InputEventSingleScreenDrag",
+"language": "GDScript",
+"path": "res://Godot-Touch-Input-Manager-master/CustomInputEvents/InputEventSingleScreenDrag.gd"
+}, {
+"base": "InputEventAction",
+"class": "InputEventSingleScreenTap",
+"language": "GDScript",
+"path": "res://Godot-Touch-Input-Manager-master/CustomInputEvents/InputEventSingleScreenTap.gd"
+}, {
+"base": "InputEventAction",
+"class": "InputEventSingleScreenTouch",
+"language": "GDScript",
+"path": "res://Godot-Touch-Input-Manager-master/CustomInputEvents/InputEventSingleScreenTouch.gd"
+} ]
+_global_script_class_icons={
+"AdminSideBar": "",
+"EventCardUI": "",
+"EventPin": "",
+"HeroCardUI": "",
+"HeroPin": "",
+"InputEventMultiScreenDrag": "",
+"InputEventScreenPinch": "",
+"InputEventScreenTwist": "",
+"InputEventSingleScreenDrag": "",
+"InputEventSingleScreenTap": "",
+"InputEventSingleScreenTouch": ""
+}
+
+[application]
+
+config/name="MapCalendar"
+run/main_scene="res://gameobjects/MainScene.tscn"
+config/icon="res://icon.png"
+
+[autoload]
+
+Resources="*res://core/autoload/resources.gd"
+InputManager="*res://Godot-Touch-Input-Manager-master/InputManager.gd"
+
+[display]
+
+window/size/width=315
+window/size/height=505
+window/stretch/mode="viewport"
+window/stretch/aspect="keep_height"
+
+[editor_plugins]
+
+enabled=PoolStringArray(  )
+
+[global]
+
+Rect=false
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
+[locale]
+
+locale_filter=[ 0, [  ] ]
+translations=PoolStringArray( "res://translation/Translation - Sheet1.ar.translation", "res://translation/Translation - Sheet1.en.translation", "res://translation/Translation - Sheet1.es.translation", "res://translation/Translation - Sheet1.fr.translation" )
+
+[rendering]
+
+quality/driver/driver_name="GLES2"
+quality/intended_usage/framebuffer_allocation=0
+quality/intended_usage/framebuffer_allocation.mobile=0
+vram_compression/import_etc=true
+vram_compression/import_etc2=false
+environment/default_clear_color=Color( 0.215686, 0.207843, 0.207843, 1 )
+environment/default_environment="res://default_env.tres"

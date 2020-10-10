@@ -1,0 +1,10 @@
+body.dashboard {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+
+  #root, .dashboard-App, .dashboard-layout {
+    min-height: 100vh;
+  }
+}

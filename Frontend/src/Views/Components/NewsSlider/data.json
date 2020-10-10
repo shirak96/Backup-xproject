@@ -1,0 +1,22 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "author": "Gaby",
+      "date": "12-01-2020",
+      "content": "Gaby Partage d’une vidéo hebdomadaire dans le cadre du défirtier maître » & « Matelot »."
+    },
+    {
+      "id": 2,
+      "author": "Test",
+      "date": "12-01-2020",
+      "content": "Test Lorem Ipsum is simply dummy text of the printing and typesetting industry. "
+    },
+    {
+      "id": 3,
+      "author": "Fabien",
+      "date": "12-01-2020",
+      "content": "Fabien Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley 222"
+    }
+  ]
+}

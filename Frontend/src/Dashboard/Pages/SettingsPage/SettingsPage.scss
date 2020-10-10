@@ -1,0 +1,22 @@
+
+body.dashboard {
+  .instagram-page {
+    .page-content > .header {
+      display: grid;
+      margin: 2.5%;
+      grid-template-columns: 1fr auto;
+    }
+
+    tr td:last-child button:last-child {
+      display: none !important;
+    }
+
+    .ui.celled.table {
+      td, th {
+        max-width: 200px;
+        overflow-x: hidden;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,9 @@
+body.dashboard {
+  .admin-page {
+    .page-content > .header {
+      display: grid;
+      margin: 2.5%;
+      grid-template-columns: 1fr auto;
+    }
+  }
+}

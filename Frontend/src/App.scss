@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'FuturaStd-Medium';
+  src: local('FuturaStd-Medium'), url(/fonts/FuturaStd-Medium.otf) format('otf');
+}
+body, html {
+  width: 100%;
+  overflow-x: hidden;
+}
+body {
+  font-family: "FuturaStd-Medium" !important;
+  text-align: justify;
+  line-height: 1.8;
+  padding-top: 3%;
+  background-color: #1a1a1a;
+}
+body.splash {
+  padding-top: 0;
+}
+body.splash footer {
+  display: none;
+}
+a, a * {
+  color: #fd7c00;
+}
+a:hover, a:hover * {
+  color: white;
+}
+.tabs .nav-link.active, .tabs .nav-link.active *,  .tabs .nav-link.active *, .tabs .nav-link.active {
+  color: white !important;
+
+}
+
+.rhap_main-controls  {
+  display: none;
+}
+
+.rhap_volume-controls {
+  width: 80px
+}

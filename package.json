@@ -1,0 +1,29 @@
+{
+  "name": "xproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "Backend": "cd Backend && npm start",
+    "Frontend": "cd Frontend && npm start",
+    "start": "concurrently --kill-others-on-fail --names \"Backend,Frontend\" \"npm run Backend\" \"npm run Frontend\"",
+    "postinstall": "cd Frontend && npm install && cd .. && cd Backend && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/Yazid-Krayem/xproject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Yazid-Krayem/xproject/issues"
+  },
+  "homepage": "https://gitlab.com/Yazid-Krayem/xproject#readme",
+  "dependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2",
+    "react-flag-icon-css": "^1.0.25"
+  }
+}

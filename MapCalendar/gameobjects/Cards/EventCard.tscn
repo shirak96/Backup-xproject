@@ -1,0 +1,95 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://core/AdminSideBar/EventCard.gd" type="Script" id=1]
+[ext_resource path="res://Futura Std Medium.otf" type="DynamicFontData" id=2]
+[ext_resource path="res://gameobjects/Buttons/DeleteButton.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Assets/icons/EventPoint.png" type="Texture" id=4]
+[ext_resource path="res://gameobjects/Buttons/EditButton.tscn" type="PackedScene" id=5]
+
+[sub_resource type="DynamicFont" id=1]
+size = 40
+font_data = ExtResource( 2 )
+
+[node name="EventCard" type="Control"]
+anchor_left = 0.115
+anchor_right = 0.115
+margin_left = -138.0
+margin_right = 139.0
+margin_bottom = 52.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Background" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="EventImage" type="TextureRect" parent="."]
+anchor_left = 0.069
+anchor_right = 0.069
+margin_left = -11.1482
+margin_top = 7.55141
+margin_right = 3988.85
+margin_bottom = 6407.55
+rect_scale = Vector2( 0.00600603, 0.00592081 )
+texture = ExtResource( 4 )
+stretch_mode = 6
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="EventName" type="Label" parent="."]
+anchor_left = 0.316
+anchor_right = 0.316
+margin_left = -42.1372
+margin_top = 9.13619
+margin_right = 163.863
+margin_bottom = 49.1362
+rect_scale = Vector2( 0.467375, 0.467375 )
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0.937255, 0.509804, 0.0392157, 1 )
+text = "Event Name"
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="EventDate" type="Label" parent="."]
+anchor_left = 0.316
+anchor_right = 0.316
+margin_left = -42.7843
+margin_top = 27.1154
+margin_right = 35.2157
+margin_bottom = 46.1154
+rect_scale = Vector2( 0.431836, 0.431836 )
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "EventDate"
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="EditButton" parent="." instance=ExtResource( 5 )]
+anchor_left = 0.802
+anchor_right = 0.802
+margin_left = -12.4978
+margin_top = 14.882
+margin_right = 3987.5
+margin_bottom = 4014.88
+rect_scale = Vector2( 0.00627186, 0.00612608 )
+
+[node name="DeleteButton" parent="." instance=ExtResource( 3 )]
+anchor_left = 0.931
+anchor_right = 0.931
+margin_left = -10.6995
+margin_top = 13.9215
+margin_right = 2397.3
+margin_bottom = 3023.92
+rect_scale = Vector2( 0.00877757, 0.00877757 )
+[connection signal="pressed" from="EditButton" to="." method="_on_EditButton_button_down"]
+[connection signal="pressed" from="DeleteButton" to="." method="_on_DeleteButton_button_down"]

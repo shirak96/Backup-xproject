@@ -1,0 +1,19 @@
+.about-container {
+  > .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .about-container {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    > .container {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+}
+

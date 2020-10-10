@@ -1,0 +1,41 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Futura Std Medium.otf" type="DynamicFontData" id=1]
+[ext_resource path="res://core/PinPoint/Pin.gd" type="Script" id=2]
+[ext_resource path="res://Assets/icons/EventPoint.png" type="Texture" id=3]
+
+[sub_resource type="DynamicFont" id=1]
+size = 70
+font_data = ExtResource( 1 )
+
+[node name="Pin" type="Node2D"]
+position = Vector2( 0.142395, -0.142395 )
+script = ExtResource( 2 )
+
+[node name="PinImage" type="TextureButton" parent="."]
+margin_left = -19.0465
+margin_top = -62.405
+margin_right = 3980.95
+margin_bottom = 6337.59
+rect_scale = Vector2( 0.00965136, 0.00965136 )
+texture_normal = ExtResource( 3 )
+stretch_mode = 5
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="EventNameLabel" type="Label" parent="."]
+margin_left = -45.7811
+margin_top = -85.9939
+margin_right = 306.219
+margin_bottom = -8.99396
+rect_scale = Vector2( 0.262262, 0.262262 )
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "Event Name"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="button_down" from="PinImage" to="." method="_on_ImageButton_button_down"]

@@ -1,0 +1,9 @@
+{
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/*.tscn": true,
+    "**/*.tres": true,
+    "**/*.import": true,
+    "**/*.png": true
+  }
+}

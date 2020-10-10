@@ -1,0 +1,478 @@
+{
+	"info": {
+		"_postman_id": "3c943a08-febc-484f-b45b-1fab8cfea9fe",
+		"name": "XProject",
+		"description": "The api documentation for our XProject\t",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Public",
+			"item": [
+				{
+					"name": "User",
+					"item": [
+						{
+							"name": "CREATE A User",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "{{API_BASE}}/api/v1/user",
+									"host": [
+										"{{API_BASE}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"user"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Music",
+					"item": [
+						{
+							"name": "GET All Musics",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": ""
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "News",
+					"item": [],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Newsletter",
+					"item": [],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Auth",
+					"item": [
+						{
+							"name": "Login",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "6b97e0d9-4ce4-4b19-8663-6a3ac7859be8",
+										"exec": [
+											"",
+											"",
+											"pm.test(\"Update env \", function () {",
+											"",
+											"    const resBody = JSON.parse(responseBody);",
+											"",
+											"const tokenString = resBody.data.token;",
+											"pm.globals.set(\"token\", tokenString);",
+											"",
+											"pm.globals.set(\"token\", tokenString);",
+											"console.log(tokenString)",
+											"",
+											"console.log('pm.globals.get(\"token\");', pm.globals.get(\"token\"))",
+											"    ",
+											"    ",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "prerequest",
+									"script": {
+										"id": "a8df1a2f-034d-42a2-8d58-95328d54ee76",
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "email",
+											"value": "admin@admin.com",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "adminadmin",
+											"type": "text"
+										}
+									],
+									"options": {
+										"urlencoded": {}
+									}
+								},
+								"url": {
+									"raw": "{{API_BASE}}/api/v1/auth/login",
+									"host": [
+										"{{API_BASE}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"auth",
+										"login"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Private",
+			"item": [
+				{
+					"name": "Admin",
+					"item": [
+						{
+							"name": "Add Admin",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "full_name",
+											"value": "Gaby Karam",
+											"type": "text"
+										},
+										{
+											"key": "username",
+											"value": "guibs",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "adminadmin",
+											"type": "text"
+										},
+										{
+											"key": "email",
+											"value": "admin@admin.com",
+											"type": "text"
+										}
+									],
+									"options": {
+										"urlencoded": {}
+									}
+								},
+								"url": {
+									"raw": "{{API_BASE}}/api/v1/admin/",
+									"host": [
+										"{{API_BASE}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"admin",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Admin",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "full_name",
+											"value": "Gaby I",
+											"type": "text"
+										},
+										{
+											"key": "username",
+											"value": "guibs",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "adminadmin",
+											"type": "text"
+										},
+										{
+											"key": "email",
+											"value": "admin@admin.com",
+											"type": "text",
+											"disabled": true
+										}
+									],
+									"options": {
+										"urlencoded": {}
+									}
+								},
+								"url": {
+									"raw": "{{API_BASE}}/api/v1/admin/e6101119-e575-4e12-acf7-ecae66bf3709",
+									"host": [
+										"{{API_BASE}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"admin",
+										"e6101119-e575-4e12-acf7-ecae66bf3709"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET All Admins",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"id": "ef1d5e76-5d70-4a95-a2ed-68165bd43168",
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "",
+										"value": "",
+										"type": "text",
+										"disabled": true
+									}
+								],
+								"url": {
+									"raw": "{{API_BASE}}/api/v1/admin",
+									"host": [
+										"{{API_BASE}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"admin"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Admin",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"id": "ef1d5e76-5d70-4a95-a2ed-68165bd43168",
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "auth",
+										"type": "text",
+										"value": "{{token}}",
+										"disabled": true
+									}
+								],
+								"url": {
+									"raw": "{{API_BASE}}/api/v1/admin/e6101119-e575-4e12-acf7-ecae66bf3709",
+									"host": [
+										"{{API_BASE}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"admin",
+										"e6101119-e575-4e12-acf7-ecae66bf3709"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GET One admin by ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{API_BASE}}/api/v1/admin/e6101119-e575-4e12-acf7-ecae66bf3709",
+									"host": [
+										"{{API_BASE}}"
+									],
+									"path": [
+										"api",
+										"v1",
+										"admin",
+										"e6101119-e575-4e12-acf7-ecae66bf3709"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "User",
+					"item": [],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Donation",
+					"item": [],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "News",
+					"item": [],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Music",
+					"item": [],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Newsletter",
+					"item": [],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Auth",
+					"item": [],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "11dfb171-52ca-4c7a-908d-099a9f0af180",
+						"type": "text/javascript",
+						"exec": [
+							"pm.test(\"Update headers with auth headers \", function () {",
+							"",
+							"const tokenString = pm.globals.get(\"token\");",
+							" pm.request.headers.add({key: 'auth', value: tokenString })",
+							"    ",
+							"    ",
+							"});"
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "ac1fcf0d-3a11-4147-b21f-c7ab2ab2748b",
+						"type": "text/javascript",
+						"exec": [
+							"",
+							"",
+							"pm.test(\"Update token env on each request \", function () {",
+							"",
+							"   let tokenString = pm.response.headers.get(\"token\")",
+							"pm.globals.set(\"token\", tokenString);",
+							"    ",
+							"    ",
+							"});"
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "8cec96b3-c1b8-48f0-b004-f85c4b6d36a5",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "829e35b0-0fe4-4a71-8380-3301f755f99a",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "109f1904-9ab4-4d9b-a5eb-a0c550b94a54",
+			"key": "API_BASE",
+			"value": "http://localhost:8000",
+			"type": "string"
+		},
+		{
+			"id": "afe6cfdc-d560-4d7f-90ad-f4d929ab6942",
+			"key": "token",
+			"value": "token",
+			"type": "string",
+			"disabled": true
+		},
+		{
+			"id": "93bf64e8-ba7d-4764-9751-79a2f4790a84",
+			"key": "auth",
+			"value": "",
+			"type": "string",
+			"disabled": true
+		}
+	],
+	"protocolProfileBehavior": {}
+}

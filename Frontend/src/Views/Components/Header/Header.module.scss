@@ -1,0 +1,43 @@
+.navbar {
+    background: transparent !important;
+    padding-bottom: 8%;
+  }
+
+
+.menuspace {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  .navbar-light .navbar-nav .nav-link,
+  a {
+    color: #fd7c00;
+  }
+
+  .dropdown > button {
+    padding: .2rem .4rem;
+    background-color: #1a1a1a !important;
+
+    .dropdown-item-button.dropdown-toggle.btn.btn-primary::after{
+      margin-right: 7px;
+    }
+  }
+
+
+  @media only screen and (min-width: 480px) and (max-width: 991px) {
+    .menuspace {
+      text-align: center;
+      border-bottom: 1px solid #fd7c00;
+    }
+  }
+
+  @media only screen and (min-width: 200px) and (max-width: 480px) {
+    .menuspace {
+      text-align: center;
+      border-bottom: 1px solid #fd7c00;
+    }
+  }

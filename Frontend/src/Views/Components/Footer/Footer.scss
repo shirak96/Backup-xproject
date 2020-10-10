@@ -1,0 +1,210 @@
+footer {
+  padding-top: 8%; //by@shirak
+  min-height: 200px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: " news  " " twitter  " "  video  " "  bottom_section ";
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  color: white;
+
+  .news {
+    min-height: 100px;
+    grid-area: news;
+    align-self: center;
+    border: 2px solid #fd7c00;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+
+    .facebook-latest-posts {
+      //display: grid;
+      //align-items: center;
+      height: 390px;
+      overflow: hidden;
+
+      p {
+        font-size: 18px;
+        color: black;
+      }
+
+      &__header {
+        padding: 10px;
+
+        h3 {
+          display: inline-block;
+          max-width: 100%;
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          border: none;
+          font-size: 21px;
+          font-weight: 300;
+          line-height: 24px;
+          color: #292F33;
+        }
+      }
+
+      &__content {
+        position: relative;
+        border-top: 1px solid rgba(15, 70, 100, .12);
+        border-bottom: 1px solid rgba(15, 70, 100, .12);
+        font: normal normal 14px/1.4 Helvetica, Roboto, "Segoe UI", Calibri, sans-serif;
+        color: #292F33;
+        text-align: left;
+        height: 389px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        display: grid;
+        align-items: center;
+        background: #1a1a1a;
+
+        > div {
+          width: 100% !important;
+          height: 100% !important;
+
+          .fb-page.fb_iframe_widget {
+            width: 100% !important;
+            height: 100% !important;
+            display: block;
+            background: white;
+
+            * {
+              width: 100% !important;
+              height: 100% !important;
+              display: block;
+            }
+
+            iframe {
+              max-width: 500px;
+            }
+          }
+        }
+        .underConstruction-box {
+          display: table;
+          margin: 0 auto;
+
+          p {
+            &:nth-child(1) {
+              font-size: 2rem;
+              margin-bottom: -10px;
+            }
+
+            &:nth-child(2) {
+              font-size: 1rem;
+            }
+
+            color: white;
+            text-align: center;
+            vertical-align: auto;
+          }
+        }
+
+        /*  .facebook-post {
+            width: 100% !important;
+
+            .fb-post {
+              width: 100% !important;
+
+              > span {
+                width: 100% !important;
+
+                > iframe {
+                  width: 100% !important;
+                }
+              }
+            }
+          }*/
+      }
+    }
+  }
+
+  .twitter {
+    border: 2px solid #fd7c00;
+    grid-area: twitter;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+
+    > div {
+      height: 100%;
+      line-height: 0;
+    }
+  }
+
+  .video {
+    grid-area: video;
+    border: 2px solid #fd7c00;
+    overflow: hidden;
+    border-radius: 10px;
+
+    .youtube-latest-videos {
+      display: grid;
+      grid-gap: 20px;
+      height: 100%;
+    }
+
+    .video-item {
+      display: grid;
+      grid-template-columns: 50px 1fr;
+      min-height: 50px;
+      align-items: center;
+      grid-gap: 20px;
+
+      .thumbnail {
+        min-width: 50px;
+        min-height: 50px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+
+      .content {
+        h4 {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  .bottom_section {
+    align-self: center;
+    grid-area: bottom_section;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  @media screen and (min-width: 681px) and (max-width: 1099px) {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr auto;
+    grid-template-areas: " news twitter " " video video " " bottom_section bottom_section";
+  }
+
+  @media screen and (min-width: 1100px) {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    grid-template-areas: " news twitter video  " "  bottom_section bottom_section bottom_section ";
+  }
+
+  @media all and (max-width: 767px) {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+.timeline-Header.timeline-InformationCircle-widgetParent {
+  display: none !important;
+}
+
+.MapSection {
+  .col {
+    margin: 0;
+  }
+}

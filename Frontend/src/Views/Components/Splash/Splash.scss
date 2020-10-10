@@ -1,0 +1,80 @@
+.popup {
+  .popup2 {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: grid;
+    align-items: center;
+
+    .contentpopup {
+      min-width: 100vw;
+      min-height: 100vh;
+      background: #1a1a1a;
+      position: relative;
+      display: grid;
+      align-items: center;
+
+      .lottie {
+        max-width: 1200px;
+        height: auto;
+        align-content: center;
+        margin-left: 25%;
+      }
+
+      .border_arc {
+        position: absolute;
+        top: 10px;
+        left: calc(100% - 100px);
+        right: 10px;
+        bottom: calc(100% - 100px);
+        border-top: 10px solid #fd7c00;
+        border-right: 10px solid #fd7c00;
+      }
+
+      .border_arc2 {
+        position: absolute;
+        bottom: 10px;
+        right: calc(100% - 100px);
+        left: 10px;
+        top: calc(100% - 100px);
+        border-bottom: 10px solid #fd7c00;
+        border-left: 10px solid #fd7c00;
+      }
+    }
+  }
+}
+
+.elementToFadeIn {
+  animation: fadeIn 3s linear 1 forwards;
+}
+
+.elementToFadeOut {
+  animation: fadeOut 2s linear 1 forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}

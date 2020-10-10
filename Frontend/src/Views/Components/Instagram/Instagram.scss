@@ -1,0 +1,31 @@
+.instagram {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    grid-template-rows: auto;
+    
+
+    > div {
+      overflow-x: hidden;
+    }
+   
+
+    @media all and (max-width: 1200px) {
+      grid-template-columns: 1fr 1fr;
+
+    }
+    @media all and (max-width: 800px) {
+      grid-template-columns: 1fr;
+      iframe {
+        width: calc(100% - 52px) !important;
+        margin: auto !important;
+      }
+    }
+  }
+
+  .iframe {
+    min-width: unset;
+  }
+}

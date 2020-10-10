@@ -1,0 +1,8 @@
+{
+    "search.exclude": {
+        "**/*.env": true
+    },
+    "files.exclude": {
+        "**/*.env": true
+    }
+}

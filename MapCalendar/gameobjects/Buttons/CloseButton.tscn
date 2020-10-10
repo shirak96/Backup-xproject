@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Assets/icons/Close-Icon-Orange.png" type="Texture" id=1]
+
+[node name="CloseButton" type="TextureButton"]
+margin_left = -13.1235
+margin_top = -13.6638
+margin_right = 2874.88
+margin_bottom = 2874.34
+rect_scale = Vector2( 0.00643518, 0.00643518 )
+size_flags_horizontal = 0
+size_flags_vertical = 0
+texture_normal = ExtResource( 1 )
+stretch_mode = 5
+__meta__ = {
+"_edit_use_anchors_": false
+}

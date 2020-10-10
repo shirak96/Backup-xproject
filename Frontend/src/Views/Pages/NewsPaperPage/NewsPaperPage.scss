@@ -1,0 +1,13 @@
+.NewsPaperPage {
+  .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  @media all and (max-width: 767px) {
+    .container {
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+  }
+}

@@ -1,0 +1,175 @@
+[gd_scene load_steps=15 format=2]
+
+[ext_resource path="res://core/SideBar-Client/Hero-SideBar.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Roboto-Black.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://Assets/circle-texture.png" type="Texture" id=4]
+[ext_resource path="res://Assets/MapCalendarImage.jpg" type="Texture" id=5]
+[ext_resource path="res://Assets/Rectangle 17.png" type="Texture" id=6]
+[ext_resource path="res://gameobjects/Buttons/CloseButton.tscn" type="PackedScene" id=7]
+[ext_resource path="res://gameobjects/Buttons/Button.tscn" type="PackedScene" id=8]
+[ext_resource path="res://Futura Std Medium.otf" type="DynamicFontData" id=9]
+[ext_resource path="res://Assets/SliderBackGround.png" type="Texture" id=10]
+
+[sub_resource type="DynamicFont" id=1]
+size = 70
+font_data = ExtResource( 9 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 40
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 70
+font_data = ExtResource( 2 )
+
+[sub_resource type="CanvasItemMaterial" id=4]
+light_mode = 2
+
+[sub_resource type="DynamicFont" id=5]
+size = 70
+font_data = ExtResource( 9 )
+
+[node name="HeroSideBar" type="Control"]
+anchor_right = 0.984
+anchor_bottom = 0.97
+margin_right = 0.039978
+margin_bottom = 0.150024
+mouse_filter = 1
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BackGround" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 10 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CloseButton" parent="." instance=ExtResource( 7 )]
+margin_left = 15.925
+margin_top = 14.5044
+margin_right = 2939.05
+margin_bottom = 2938.17
+
+[node name="HeroImageControl" type="Control" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -60.4476
+margin_top = 66.2521
+margin_right = 66.5524
+margin_bottom = 196.252
+
+[node name="HeroImage" type="TextureRect" parent="."]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -148.871
+margin_top = 50.0
+margin_right = 148.129
+margin_bottom = 225.0
+texture = ExtResource( 6 )
+expand = true
+stretch_mode = 6
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HeroName" type="Label" parent="."]
+margin_left = 89.0
+margin_top = 227.0
+margin_right = 494.0
+margin_bottom = 325.0
+rect_scale = Vector2( 0.343066, 0.343066 )
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0.933333, 0.509804, 0.0156863, 1 )
+text = "Hero Name"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Description_H" type="Label" parent="."]
+visible = false
+anchor_top = 0.529
+anchor_bottom = 0.529
+margin_left = 14.7802
+margin_top = 26.4226
+margin_right = 219.78
+margin_bottom = 74.4226
+rect_scale = Vector2( 0.633781, 0.633781 )
+custom_fonts/font = SubResource( 2 )
+custom_colors/font_color = Color( 0.933333, 0.509804, 0.0156863, 1 )
+text = "description"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Description" type="Label" parent="."]
+anchor_top = 0.529
+anchor_bottom = 0.529
+margin_left = 23.0
+margin_top = 2.88507
+margin_right = 1115.0
+margin_bottom = 666.885
+rect_scale = Vector2( 0.240603, 0.240603 )
+custom_fonts/font = SubResource( 3 )
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Hero-Circle" type="TextureRect" parent="."]
+visible = false
+material = SubResource( 4 )
+anchor_left = 0.49
+anchor_top = -0.013
+anchor_right = 0.49
+anchor_bottom = -0.013
+margin_left = -54.2976
+margin_top = 84.8171
+margin_right = 188.702
+margin_bottom = 323.817
+rect_scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 5 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Light2D" type="Light2D" parent="."]
+visible = false
+position = Vector2( 158.541, 136.252 )
+scale = Vector2( 0.45, 0.45 )
+texture = ExtResource( 4 )
+mode = 2
+
+[node name="VisitWebsiteButton" parent="." instance=ExtResource( 8 )]
+anchor_left = 0.501
+anchor_top = 1.0
+anchor_right = 0.501
+anchor_bottom = 1.0
+margin_left = -53.5414
+margin_top = -51.2623
+margin_right = 53.4586
+margin_bottom = -18.2623
+
+[node name="Label" type="Label" parent="VisitWebsiteButton"]
+margin_left = 13.8083
+margin_top = 9.80835
+margin_right = 237.808
+margin_bottom = 57.8083
+rect_scale = Vector2( 0.227519, 0.227519 )
+custom_fonts/font = SubResource( 5 )
+text = "visitWebsite"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="CloseButton" to="." method="_on_CloseButton_button_down"]
+[connection signal="pressed" from="VisitWebsiteButton" to="." method="_on_VisitWebsiteButton_pressed"]

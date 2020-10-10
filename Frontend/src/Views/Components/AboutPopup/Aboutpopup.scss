@@ -1,0 +1,87 @@
+.aboutpopup {
+    .aboutpopupimg {
+    border: 2px solid #fd7c00;
+    border-radius: 10px;
+    }
+    .modal-header .img-fluid {
+        max-width: 30%;
+    }
+    
+    .row {
+        padding-bottom: 2rem;
+    }
+
+
+    .modal-content {
+        background-color: #1a1a1a;
+        border: solid 2px #fd7c00;
+        color: white;
+        line-height: 2rem;
+        align-items: center;
+    }
+    
+    
+    .modal-header{
+        justify-content: center;
+        border: none;
+    }
+    
+    
+    .modal-footer {
+        border: none;
+    }
+    
+
+    .btn {
+        background-color: #fd7c00;
+        border-color: #fd7c00; 
+        padding: 0.375rem 3.75rem;
+    }
+
+    .btn-primary:hover {
+        background-color:#1a1a1a;
+        color: #fd7c00;
+    }
+
+    .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+        background-color: #fd7c00;
+    }
+
+
+    @media only screen and (min-width: 200px) and (max-width: 1090px) {
+        .modal-header .img-fluid {
+            max-width: 60%;
+        }
+        // .img-fluid {
+        //     max-width: 200%;
+        // }
+
+        .col-6 {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+
+    @media only screen and (min-width:  768px) and (max-width: 1090px) {
+        .col-12 {
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+       
+        .col-6 {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    } 
+
+    @media screen and (min-width: 990px) and (max-width: 1090px) {
+        .img-fluid {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+      }
+    }
+}
+
+

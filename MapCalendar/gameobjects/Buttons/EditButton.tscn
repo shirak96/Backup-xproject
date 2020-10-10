@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/icons/Edit-Icon-Orange.png" type="Texture" id=1]
+[ext_resource path="res://Assets/icons/Edit-Icon-Black.png" type="Texture" id=2]
+
+[node name="EditButton" type="TextureButton"]
+margin_left = -45.7924
+margin_top = -27.5193
+margin_right = 2011.21
+margin_bottom = 1972.48
+rect_scale = Vector2( 0.0242137, 0.0236509 )
+texture_normal = ExtResource( 2 )
+texture_hover = ExtResource( 1 )
+stretch_mode = 5
+__meta__ = {
+"_edit_use_anchors_": false
+}

@@ -1,0 +1,12 @@
+body.dashboard {
+  .donation-info-page {
+    .page-content > .header {
+      display: grid;
+      margin: 2.5%;
+      grid-template-columns: 1fr auto;
+    }
+    tr td:last-child button:not(:first-child){
+      display: none !important;
+    }
+  }
+}

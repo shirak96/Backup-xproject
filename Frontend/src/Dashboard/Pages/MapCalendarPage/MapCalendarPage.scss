@@ -1,0 +1,15 @@
+
+.MapCalendar-ContainerPage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .MapCalendar-container-page {
+    width: 1000px;
+    height: 505px;
+    iframe{
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

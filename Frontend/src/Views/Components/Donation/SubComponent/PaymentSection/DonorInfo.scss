@@ -1,0 +1,43 @@
+body:not(.dashboard) {
+
+  input[type="file"]#special {
+    display: none;
+  }
+
+}
+.file-upload-group {
+  display: grid;
+
+}
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin: 0;
+  color: black;;
+  svg {
+    color: #fa755a;
+  }
+}
+
+.file-preview {
+  margin: 0 10px;
+}
+
+.input-wrapper {
+  background: white;
+  border: 1px solid #ced4da;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-clip: padding-box;
+  margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  justify-content: center;
+}
+

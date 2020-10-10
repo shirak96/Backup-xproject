@@ -1,0 +1,169 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://Assets/Roboto-Black.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://core/AdminSideBar/Admin-SideBar.gd" type="Script" id=2]
+[ext_resource path="res://gameobjects/Buttons/CloseButton.tscn" type="PackedScene" id=3]
+[ext_resource path="res://core/AdminSideBar/EventsCardContainer.gd" type="Script" id=4]
+[ext_resource path="res://Assets/SliderBackGround.png" type="Texture" id=5]
+[ext_resource path="res://gameobjects/Buttons/Button.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Futura Std Medium.otf" type="DynamicFontData" id=8]
+
+[sub_resource type="DynamicFont" id=1]
+size = 70
+font_data = ExtResource( 1 )
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 8 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 70
+font_data = ExtResource( 8 )
+
+[node name="AdminSideBar" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 0.97
+margin_right = -5.0
+margin_bottom = 0.149994
+mouse_filter = 1
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BackGround" type="TextureRect" parent="."]
+margin_right = 310.0
+margin_bottom = 490.0
+texture = ExtResource( 5 )
+expand = true
+
+[node name="EventTile" type="Label" parent="."]
+anchor_left = 0.497
+anchor_right = 0.497
+margin_left = -70.2084
+margin_top = 38.1037
+margin_right = 330.792
+margin_bottom = 121.104
+rect_scale = Vector2( 0.357438, 0.357438 )
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0.937255, 0.509804, 0.0392157, 1 )
+text = "Admin Panel"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CloseButton" parent="." instance=ExtResource( 3 )]
+margin_left = 18.7578
+margin_top = 17.6771
+margin_right = 2941.88
+margin_bottom = 2941.34
+
+[node name="TabContainer" type="TabContainer" parent="."]
+anchor_left = 0.495
+anchor_right = 0.495
+margin_left = -129.45
+margin_top = 84.0
+margin_right = 134.55
+margin_bottom = 390.0
+custom_fonts/font = SubResource( 2 )
+custom_constants/label_valign_fg = 0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Events" type="ScrollContainer" parent="TabContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 35.0
+margin_right = -4.0
+margin_bottom = -4.0
+scroll_horizontal_enabled = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="EventsCardContainer" type="VBoxContainer" parent="TabContainer/Events"]
+custom_constants/separation = 10
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Heroes" type="ScrollContainer" parent="TabContainer"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 35.0
+margin_right = -4.0
+margin_bottom = -4.0
+scroll_horizontal_enabled = false
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HeroCardContainer" type="VBoxContainer" parent="TabContainer/Heroes"]
+custom_constants/separation = 10
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CreateEvent-Button" parent="." instance=ExtResource( 6 )]
+anchor_left = 0.266
+anchor_top = 1.0
+anchor_right = 0.266
+anchor_bottom = 1.0
+margin_left = -65.9183
+margin_top = -49.8123
+margin_right = 169.081
+margin_bottom = 3.18771
+rect_scale = Vector2( 0.560627, 0.560627 )
+
+[node name="Label" type="Label" parent="CreateEvent-Button"]
+anchor_left = 0.498
+anchor_right = 0.498
+margin_left = -78.0097
+margin_top = 9.854
+margin_right = 384.99
+margin_bottom = 110.854
+rect_scale = Vector2( 0.323237, 0.323237 )
+custom_fonts/font = SubResource( 3 )
+text = "Create Event"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CreateHero-Button" parent="." instance=ExtResource( 6 )]
+anchor_left = 0.732
+anchor_top = 1.0
+anchor_right = 0.732
+anchor_bottom = 1.0
+margin_left = -64.9483
+margin_top = -50.2431
+margin_right = 170.052
+margin_bottom = 2.75693
+rect_scale = Vector2( 0.561391, 0.561391 )
+
+[node name="Label" type="Label" parent="CreateHero-Button"]
+anchor_left = 0.498
+anchor_right = 0.498
+margin_left = -81.7023
+margin_top = 7.84192
+margin_right = 385.298
+margin_bottom = 110.842
+rect_scale = Vector2( 0.350677, 0.350677 )
+custom_fonts/font = SubResource( 3 )
+text = "Create Hero"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="CloseButton" to="." method="_on_CloseButton_button_down"]
+[connection signal="pressed" from="CreateEvent-Button" to="." method="_on_CreateEventButton_pressed"]
+[connection signal="pressed" from="CreateHero-Button" to="." method="_on_CreateHeroButton_pressed"]

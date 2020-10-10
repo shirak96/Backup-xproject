@@ -1,0 +1,23 @@
+body.dashboard {
+  .side.menu {
+    text-align: left;
+    margin: 0;
+
+    a:hover, a:hover * {
+      color: #00b5ad;
+    }
+  }
+  .ui.menu.fixed {
+    position: relative;
+  }
+
+  a.item {
+    color: #fd7c00;
+  }
+  a.item i.red.icon {
+    color: #fd7c00 !important;
+  }
+  a.item.log-out:hover  * {
+    color: red !important;
+  }
+}
